@@ -1,0 +1,32 @@
+{
+  "name": "squoosh-desktop",
+  "version": "1.0.0",
+  "description": "Squoosh as a standalone macOS app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.yourname.squoosh",
+    "productName": "Squoosh",
+    "files": [
+      "main.js",
+      "squoosh/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.graphics-design",
+      "icon": "icon.icns",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["arm64", "x64"]
+        }
+      ]
+    }
+  }
+}

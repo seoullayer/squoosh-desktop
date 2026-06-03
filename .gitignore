@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Build / packaging output
+dist/
+
+# Squoosh static build — users build this themselves (see README)
+squoosh/
+
+# Generated icon (derived from Squoosh's logo)
+icon.icns
+
+# macOS
+.DS_Store
