@@ -6,7 +6,7 @@ The hard part of doing this is that several of Squoosh's WebAssembly codecs are 
 
 > **Unofficial project.** This is not affiliated with, endorsed by, or sponsored by Google. "Squoosh" and the Squoosh logo are trademarks of Google. **This repository contains only the Electron wrapper.** It does *not* redistribute Squoosh or its build output — you build Squoosh from its own source and drop it in (see below). The app icon is generated locally from your own Squoosh build and is likewise not included here.
 
-A full write-up of how and why this was built is on the blog: <!-- TODO: add post URL -->
+A full write-up of how and why this was built is on the blog: <https://seoullayer.com/posts/squoosh-native-mac-app-electron>
 
 ---
 
